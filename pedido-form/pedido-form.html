@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pedido-form.css">
     <title>Cadastro de Pedido</title>
 </head>
 <body>
@@ -14,27 +15,32 @@
                     Cadastro de Pedido
                 </b>
                 </legend>
-                <br>
+                <br><br>
                 <div class="inputBox">
                     <input type="text" name="name" id="name" class="inputClient" required>
-                    <label for="name">Cliente</label>
+                    <label for="name" class="labelInput">Cliente</label>
                 </div>
-                <br>
+                
                 <div class="inputBox">
                     <input type="number" name="client" id="client" class="inputClient" required>
-                    <label for="client">Nº do Pedido</label>
+                    <label for="client" class="labelInput">Nº do Pedido</label>
                 </div>
-                <br>
+                <br><br>
                 <div class="inputBox">
                     <input type="text" name="product" id="product" class="inputClient" required>
-                    <label for="product">Produto</label>
+                    <label for="product" class="labelInput">Produto</label>
                 </div>
-                <br>
+                <br><br>
                 <div class="inputBox">
                     <input type="number" name="quantity" id="quantity" class="inputClient" required>
-                    <label for="quantity">Quantidade</label>
+                    <label for="quantity" class="labelInput">Quantidade</label>
                 </div>
-                <br>
+                <br><br>
+                <div class="inputBox">
+                    <input type="date" name="daterequest" id="daterequest" class="inputClient" required>
+                    <label for="daterequest"><b>Data do Pedido </b></label>
+                </div>
+                <br><br>
                 <button>Enviar</button>
             </fieldset>
         </form>
