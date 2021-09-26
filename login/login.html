@@ -11,16 +11,33 @@
 </head>
 
 <body>
-    <div>
-        <img src="ws.png">
-    </div>
+    
+    <h1 class="entrar">ENTRAR</h1>
+    <img src="otsu.png">
     <div class="login-space">
-        <h1>Entrar</h1>
-        <input type="text" placeholder="Usuário">
+        <div class="inputBox">
+            <input  type="string" name="client" id="client" class="inputClient" required>
+            <label  for="client" class="labelInput">Usuário</label>
+        </div>
         <br><br>
-        <input type="password" placeholder="Senha">
+
+        <div class="inputBox">
+            <input type="string" name="client" id="client" class="inputClient" required>
+            <label for="client" class="labelInput">Senha</label>
+        </div>
+
         <br><br>
-        <button>Entrar</button>
+        <button class="button-entrar">ENTRAR</button>
+
+        <div>
+            <label class="switch">
+                
+                <input type="checkbox">
+                <span class="slider"></span>
+              </label>
+              <label class="lembrar">Lembrar-me</label>
+              <button class="forget-password">Esqueci minha senha</button>
+        </div>
     </div>
 </body>
 
